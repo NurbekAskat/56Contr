@@ -25,7 +25,7 @@ const OrderDetails: React.FC<Props> = ({order, removeItemFromOrder}) => {
           {order.filter(item => item.count > 0).map(item => (
             <li key={item.id}>
               {item.name} x {item.count} - {item.price * item.count} KGS
-              <button onClick={() => removeItemFromOrder(item.name)}>Remove</button>
+              <button onClick={() => removeItemFromOrder(item.name)}></button>
             </li>
           ))}
         </ul>

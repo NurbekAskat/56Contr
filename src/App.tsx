@@ -11,6 +11,8 @@ const menuItems: MenuItem[] = [
   {id: 4, name: 'Pizza', price: 400, count: 0},
   {id: 5, name: 'Ice Cream', price: 60, count: 0},
   {id: 6, name: 'Coffee', price: 50, count: 0},
+  {id: 7, name: 'Pepsi', price: 90, count: 0},
+  {id: 8, name: 'Water', price: 20, count: 0}
 ];
 
 const App = () => {
